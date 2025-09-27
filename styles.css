@@ -7,10 +7,26 @@ LIGHT BLUE: #457B9D
 DARK BLUE: #1D3557
 
 */
-
+@font-face {
+  font-family: 'coolFont';
+  src: url('assets/VeniteAdoremus-rgRBA.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0;
     text-align: center;
+    font-family: "coolFont",cursive;
+}
+
+.chicago-section{
+    background-image: url("images/chicago.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 376px;
 }
 
 img {
