@@ -19,6 +19,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: "coolFont",cursive;
+    background: linear-gradient(skyblue,#00c4f8, #f4e9d8, #dbe4ea);
 }
 
 .chicago-section{
@@ -27,8 +28,75 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 376px;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+.hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+h1{
+    font-size: 34px;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+h2{
+    font-size: 18px;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 80%;
+}
+.activities {
+    width: 150px;
+    margin-left: 50px;
+    border-radius: 50%;
 }
 
-img {
+.activities-section{
+    background-color: #f4e9d8;
+    color: #2c2c2c;
+    height: 376px;
+    width: 80%;
+    margin: 0 auto;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
+.img-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+}
+
+.guide-section{
+    background-color: #dbe4ea;
+    color: #1a1a1a;
+    height: 376px;
+    width: 80%;
+    margin: 0 auto;
+}
+.avatar{
     width: 100px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
 }
